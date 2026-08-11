@@ -112,7 +112,7 @@ class CumulativeGaussCurlVelocityDeficit(BaseModel):
 
         sum_lbda = np.zeros_like(u_initial)
 
-        for m in range(0, ii - 1):
+        for m in range(0, ii):
             x_coord_m = x_coord[:, m:m+1]
             y_coord_m = y_coord[:, m:m+1]
             z_coord_m = z_coord[:, m:m+1]
